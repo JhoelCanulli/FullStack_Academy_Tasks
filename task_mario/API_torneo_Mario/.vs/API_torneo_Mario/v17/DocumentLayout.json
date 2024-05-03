@@ -1,0 +1,294 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\controllers\\squadracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\controllers\\squadracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\controllers\\personaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\controllers\\personaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\models\\personaggio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\models\\personaggio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\models\\squadra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\models\\squadra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\services\\squadraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\services\\squadraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\repos\\personaggiorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\repos\\personaggiorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\dto\\squadradto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\dto\\squadradto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\dto\\personaggiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\dto\\personaggiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\services\\personaggioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\services\\personaggioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\repos\\squadrarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\repos\\squadrarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\api_torneo_mario.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\api_torneo_mario.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\tasks\\task_mario\\api_torneo_mario\\api_torneo_mario\\utils\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B595C61-ACAF-439F-ABE3-6B30A367C7DC}|API_torneo_Mario\\API_torneo_Mario.csproj|solutionrelative:api_torneo_mario\\utils\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1084,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonaggioRepo.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Repos\\PersonaggioRepo.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\Repos\\PersonaggioRepo.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Repos\\PersonaggioRepo.cs",
+              "RelativeToolTip": "API_torneo_Mario\\Repos\\PersonaggioRepo.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwDgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T13:06:10.72Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PersonaggioService.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Services\\PersonaggioService.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\Services\\PersonaggioService.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Services\\PersonaggioService.cs",
+              "RelativeToolTip": "API_torneo_Mario\\Services\\PersonaggioService.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwBYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:09:55.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Program.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\Program.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Program.cs",
+              "RelativeToolTip": "API_torneo_Mario\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T16:01:34.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API_torneo_Mario\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-25T18:39:10.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "API_torneo_Mario.http",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\API_torneo_Mario.http",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\API_torneo_Mario.http",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\API_torneo_Mario.http",
+              "RelativeToolTip": "API_torneo_Mario\\API_torneo_Mario.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-25T18:40:24.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\appsettings.Development.json",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\appsettings.Development.json",
+              "RelativeToolTip": "API_torneo_Mario\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-25T18:40:36.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\appsettings.json",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\appsettings.json",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\appsettings.json",
+              "RelativeToolTip": "API_torneo_Mario\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-25T18:39:19.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Context.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Models\\Context.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\Models\\Context.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Models\\Context.cs",
+              "RelativeToolTip": "API_torneo_Mario\\Models\\Context.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T12:32:58.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonaggioController.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Controllers\\PersonaggioController.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\Controllers\\PersonaggioController.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Controllers\\PersonaggioController.cs",
+              "RelativeToolTip": "API_torneo_Mario\\Controllers\\PersonaggioController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T14:42:45.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SquadraDTO.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\DTO\\SquadraDTO.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\DTO\\SquadraDTO.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\DTO\\SquadraDTO.cs",
+              "RelativeToolTip": "API_torneo_Mario\\DTO\\SquadraDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:58:50.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PersonaggioDTO.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\DTO\\PersonaggioDTO.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\DTO\\PersonaggioDTO.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\DTO\\PersonaggioDTO.cs",
+              "RelativeToolTip": "API_torneo_Mario\\DTO\\PersonaggioDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T13:35:15.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Status.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Utils\\Status.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\Utils\\Status.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Utils\\Status.cs",
+              "RelativeToolTip": "API_torneo_Mario\\Utils\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:17:12.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SquadraController.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Controllers\\SquadraController.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\Controllers\\SquadraController.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Controllers\\SquadraController.cs",
+              "RelativeToolTip": "API_torneo_Mario\\Controllers\\SquadraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:44:08.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SquadraRepo.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Repos\\SquadraRepo.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\Repos\\SquadraRepo.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Repos\\SquadraRepo.cs",
+              "RelativeToolTip": "API_torneo_Mario\\Repos\\SquadraRepo.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAD4vyQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T13:05:36.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SquadraService.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Services\\SquadraService.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\Services\\SquadraService.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Services\\SquadraService.cs",
+              "RelativeToolTip": "API_torneo_Mario\\Services\\SquadraService.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAmwAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T12:42:47.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Squadra.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Models\\Squadra.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\Models\\Squadra.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Models\\Squadra.cs",
+              "RelativeToolTip": "API_torneo_Mario\\Models\\Squadra.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:03:38.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Personaggio.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Models\\Personaggio.cs",
+              "RelativeDocumentMoniker": "API_torneo_Mario\\Models\\Personaggio.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Tasks\\task_mario\\API_torneo_Mario\\API_torneo_Mario\\Models\\Personaggio.cs",
+              "RelativeToolTip": "API_torneo_Mario\\Models\\Personaggio.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T12:22:30.551Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

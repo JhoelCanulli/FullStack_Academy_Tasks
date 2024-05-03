@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo_modulo\\esercitazioni\\eventi\\orm_eventi\\orm_eventi\\models\\console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|solutionrelative:orm_eventi\\models\\console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo_modulo\\esercitazioni\\eventi\\orm_eventi\\orm_eventi\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|solutionrelative:orm_eventi\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo_modulo\\esercitazioni\\eventi\\orm_eventi\\orm_eventi\\dal\\eventodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|solutionrelative:orm_eventi\\dal\\eventodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo_modulo\\esercitazioni\\eventi\\orm_eventi\\orm_eventi\\dal\\partecipantedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|solutionrelative:orm_eventi\\dal\\partecipantedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo_modulo\\esercitazioni\\eventi\\orm_eventi\\orm_eventi\\dal\\risorsadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|solutionrelative:orm_eventi\\dal\\risorsadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo_modulo\\esercitazioni\\eventi\\orm_eventi\\orm_eventi\\models\\ddleventicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|solutionrelative:orm_eventi\\models\\ddleventicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo_modulo\\esercitazioni\\eventi\\orm_eventi\\orm_eventi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E165B700-3803-47F5-949A-F6F1F4929451}|ORM_eventi\\ORM_eventi.csproj|solutionrelative:orm_eventi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDAL.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\DAL\\IDAL.cs",
+              "RelativeDocumentMoniker": "ORM_eventi\\DAL\\IDAL.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\DAL\\IDAL.cs",
+              "RelativeToolTip": "ORM_eventi\\DAL\\IDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:33:17.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RisorsaDAL.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\DAL\\RisorsaDAL.cs",
+              "RelativeDocumentMoniker": "ORM_eventi\\DAL\\RisorsaDAL.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\DAL\\RisorsaDAL.cs",
+              "RelativeToolTip": "ORM_eventi\\DAL\\RisorsaDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:53:28.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PartecipanteDAL.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\DAL\\PartecipanteDAL.cs",
+              "RelativeDocumentMoniker": "ORM_eventi\\DAL\\PartecipanteDAL.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\DAL\\PartecipanteDAL.cs",
+              "RelativeToolTip": "ORM_eventi\\DAL\\PartecipanteDAL.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAQwCsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:53:16.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventoDAL.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\DAL\\EventoDAL.cs",
+              "RelativeDocumentMoniker": "ORM_eventi\\DAL\\EventoDAL.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\DAL\\EventoDAL.cs",
+              "RelativeToolTip": "ORM_eventi\\DAL\\EventoDAL.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:53:08.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Console.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\Models\\Console.cs",
+              "RelativeDocumentMoniker": "ORM_eventi\\Models\\Console.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\Models\\Console.cs",
+              "RelativeToolTip": "ORM_eventi\\Models\\Console.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:36:57.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DdlEventiContext.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\Models\\DdlEventiContext.cs",
+              "RelativeDocumentMoniker": "ORM_eventi\\Models\\DdlEventiContext.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\Models\\DdlEventiContext.cs",
+              "RelativeToolTip": "ORM_eventi\\Models\\DdlEventiContext.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowDcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:34:53.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\Program.cs",
+              "RelativeDocumentMoniker": "ORM_eventi\\Program.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\eventi\\ORM_eventi\\ORM_eventi\\Program.cs",
+              "RelativeToolTip": "ORM_eventi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:30:41.19Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

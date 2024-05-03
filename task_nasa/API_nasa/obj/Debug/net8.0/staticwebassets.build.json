@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UCPaKR+Fge6auqohvvVSuELidOQhKHB1O5w7+E5ogY8=",
+  "Source": "API_nasa",
+  "BasePath": "_content/API_nasa",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

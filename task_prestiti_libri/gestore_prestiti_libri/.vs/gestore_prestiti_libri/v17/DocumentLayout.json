@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\dal\\prestitodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|solutionrelative:gestore_prestiti_libri\\dal\\prestitodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\models\\prestito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|solutionrelative:gestore_prestiti_libri\\models\\prestito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\dal\\utentedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|solutionrelative:gestore_prestiti_libri\\dal\\utentedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\dal\\librodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|solutionrelative:gestore_prestiti_libri\\dal\\librodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|solutionrelative:gestore_prestiti_libri\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|solutionrelative:gestore_prestiti_libri\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|solutionrelative:gestore_prestiti_libri\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|solutionrelative:gestore_prestiti_libri\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|solutionrelative:gestore_prestiti_libri\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\utilities\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439B00B7-86CB-46F8-A1C9-82487BF7309D}|gestore_prestiti_libri\\gestore_prestiti_libri.csproj|solutionrelative:gestore_prestiti_libri\\utilities\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 132,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UtenteDAL.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\DAL\\UtenteDAL.cs",
+              "RelativeDocumentMoniker": "gestore_prestiti_libri\\DAL\\UtenteDAL.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\DAL\\UtenteDAL.cs",
+              "RelativeToolTip": "gestore_prestiti_libri\\DAL\\UtenteDAL.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwCMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:22:00.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibroDAL.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\DAL\\LibroDAL.cs",
+              "RelativeDocumentMoniker": "gestore_prestiti_libri\\DAL\\LibroDAL.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\DAL\\LibroDAL.cs",
+              "RelativeToolTip": "gestore_prestiti_libri\\DAL\\LibroDAL.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAxwCQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:24:50.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrestitoDAL.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\DAL\\PrestitoDAL.cs",
+              "RelativeDocumentMoniker": "gestore_prestiti_libri\\DAL\\PrestitoDAL.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\DAL\\PrestitoDAL.cs",
+              "RelativeToolTip": "gestore_prestiti_libri\\DAL\\PrestitoDAL.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAA0wDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:22:31.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\Program.cs",
+              "RelativeDocumentMoniker": "gestore_prestiti_libri\\Program.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\Program.cs",
+              "RelativeToolTip": "gestore_prestiti_libri\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:02:31.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "gestore_prestiti_libri\\Models\\Libro.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\Models\\Libro.cs",
+              "RelativeToolTip": "gestore_prestiti_libri\\Models\\Libro.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:26:24.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Utente.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\Models\\Utente.cs",
+              "RelativeDocumentMoniker": "gestore_prestiti_libri\\Models\\Utente.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\Models\\Utente.cs",
+              "RelativeToolTip": "gestore_prestiti_libri\\Models\\Utente.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:26:37.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDal.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\DAL\\IDal.cs",
+              "RelativeDocumentMoniker": "gestore_prestiti_libri\\DAL\\IDal.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\DAL\\IDal.cs",
+              "RelativeToolTip": "gestore_prestiti_libri\\DAL\\IDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:22:18.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Prestito.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\Models\\Prestito.cs",
+              "RelativeDocumentMoniker": "gestore_prestiti_libri\\Models\\Prestito.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\Models\\Prestito.cs",
+              "RelativeToolTip": "gestore_prestiti_libri\\Models\\Prestito.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBMAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:26:30.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appSettings.json",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\appSettings.json",
+              "RelativeDocumentMoniker": "gestore_prestiti_libri\\appSettings.json",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\appSettings.json",
+              "RelativeToolTip": "gestore_prestiti_libri\\appSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-20T15:35:28.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Config.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\Utilities\\Config.cs",
+              "RelativeDocumentMoniker": "gestore_prestiti_libri\\Utilities\\Config.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\prestiti_libri\\gestore_prestiti_libri\\gestore_prestiti_libri\\Utilities\\Config.cs",
+              "RelativeToolTip": "gestore_prestiti_libri\\Utilities\\Config.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:19:17.156Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

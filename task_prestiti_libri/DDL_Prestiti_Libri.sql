@@ -1,0 +1,31 @@
+DROP TABLE IF EXISTS Prestito;
+DROP TABLE IF EXISTS Libro;
+DROP TABLE IF EXISTS Utente;
+
+CREATE TABLE Utente (
+    utenteID INT PRIMARY KEY IDENTITY(1,1),
+    nome NVARCHAR(100) NOT NULL,
+    cognome NVARCHAR(100) NOT NULL ,
+    mail NVARCHAR(100),
+	codice_utente VARCHAR(50) NOT NULL UNIQUE,
+	deleted DATETIME			-- SOFT DELETE
+);
+CREATE TABLE Libro (
+    libroID INT PRIMARY KEY IDENTITY(1,1),
+    titolo NVARCHAR(100) NOT NULL,
+    anno_pubblicazione DATETIME,
+    disp BIT DEFAULT 1,
+	isbn VARCHAR(50) NOT NULL UNIQUE
+);
+CREATE TABLE Prestito (
+    prestitoID INT PRIMARY KEY IDENTITY(1,1),
+    data_prestito DATETIME DEFAULT CURRENT_TIMESTAMP,
+    data_ritorno DATETIME,
+	utenteRIF INT NOT NULL,
+	libroRIF INT NOT NULL,
+	FOREIGN KEY (utenteRIF) REFERENCES Utente(utenteID),
+	FOREIGN KEY (libroRIF) REFERENCES Libro(libroID),
+	deleted DATETIME
+);
+
+SELECT * FROM Prestito;

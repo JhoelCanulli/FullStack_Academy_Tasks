@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U3mbM/Qb6ocTyUPoHuCwZTdIZV8pImZJUDbZHDLiUN7LzHevI5Mv6Znql9KrnxyueRiEE6rPQ1JKsK2vZpf1zw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\utente\\Desktop\\minitask_preferiti_fixbug\\ASP_WEB_lez05_Preferiti\\ASP_WEB_lez05_Preferiti.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\utente\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

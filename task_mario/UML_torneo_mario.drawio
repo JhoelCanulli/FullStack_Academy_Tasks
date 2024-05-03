@@ -1,0 +1,97 @@
+<mxfile host="Electron" modified="2024-04-26T16:30:36.106Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="R8DGS6F2czEa9RvVVDyJ" version="24.0.4" type="device">
+  <diagram name="Pagina-1" id="75ss7As79XcFJkLLSLmX">
+    <mxGraphModel dx="880" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0bP4kt4aHLkIbD8hlCEP-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="19" y="150" width="790" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="0bP4kt4aHLkIbD8hlCEP-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="19" y="725" width="790" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-1" value="Squadra" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="210" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-2" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- GiocatoreID: int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Codice : string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Nome : string&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;-&amp;nbsp;Budget : int&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Personaggi : [Personaggio]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Get ( )&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+Set ( )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="320" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-4" value="Personaggio" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="210" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-5" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;PersonaggioID : int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Codice : string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Nome : string&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;-&amp;nbsp;Categoria: string&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Crediti : int&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;-&amp;nbsp;SquadraRIF : int&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;-&amp;nbsp;Squadra : Squadra&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="240" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-6" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Get ( )&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+Set ( )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="610" y="350" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamond;endFill=0;" parent="1" source="2dwV1CmSTDZfllYHpya5-4" target="2dwV1CmSTDZfllYHpya5-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-8" value="SquadraDTO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="520" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-9" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Code : string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Name : string&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Budg : int&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Characters: [PersonaggioDTO]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="550" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-10" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Get ( )&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+Set ( )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="30" y="620" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamond;endFill=0;" parent="1" source="2dwV1CmSTDZfllYHpya5-12" target="2dwV1CmSTDZfllYHpya5-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="535" />
+              <mxPoint x="240" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-12" value="PersonaggioDTO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="520" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-13" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Code - string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Name : string&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Category: string&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Cred : string&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Squad : SquadraDTO&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="550" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2dwV1CmSTDZfllYHpya5-14" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Get ( )&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+Set ( )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="600" y="630" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0bP4kt4aHLkIbD8hlCEP-1" value="Squadra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="29" y="770" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0bP4kt4aHLkIbD8hlCEP-2" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Name : string&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Budg : int&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Characters: [PersonaggioDTO]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="29" y="800" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0bP4kt4aHLkIbD8hlCEP-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Get ( )&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+Set ( )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="29" y="870" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0bP4kt4aHLkIbD8hlCEP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamond;endFill=0;" edge="1" parent="1" source="0bP4kt4aHLkIbD8hlCEP-5" target="0bP4kt4aHLkIbD8hlCEP-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="239" y="785" />
+              <mxPoint x="239" y="785" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0bP4kt4aHLkIbD8hlCEP-5" value="Personaggio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="599" y="770" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0bP4kt4aHLkIbD8hlCEP-6" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Code - string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Name : string&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Category: string&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Cred : string&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Squad : SquadraDTO&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="599" y="800" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0bP4kt4aHLkIbD8hlCEP-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Get ( )&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+Set ( )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="599" y="880" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0bP4kt4aHLkIbD8hlCEP-8" value="C#" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="384" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0bP4kt4aHLkIbD8hlCEP-11" value="ANGULAR" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FBFF85;" vertex="1" parent="1">
+          <mxGeometry x="394" y="735" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

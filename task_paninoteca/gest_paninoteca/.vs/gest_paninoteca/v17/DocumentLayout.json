@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\gest_paninoteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CE29BC7-7EF4-4581-AF25-0A10E50445D2}|gest_paninoteca\\gest_paninoteca.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\gest_paninoteca\\gest_paninoteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE29BC7-7EF4-4581-AF25-0A10E50445D2}|gest_paninoteca\\gest_paninoteca.csproj|solutionrelative:gest_paninoteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CE29BC7-7EF4-4581-AF25-0A10E50445D2}|gest_paninoteca\\gest_paninoteca.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\gest_paninoteca\\gest_paninoteca\\models\\panino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE29BC7-7EF4-4581-AF25-0A10E50445D2}|gest_paninoteca\\gest_paninoteca.csproj|solutionrelative:gest_paninoteca\\models\\panino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CE29BC7-7EF4-4581-AF25-0A10E50445D2}|gest_paninoteca\\gest_paninoteca.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo modulo\\esercitazioni\\gest_paninoteca\\gest_paninoteca\\models\\gestorepanino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE29BC7-7EF4-4581-AF25-0A10E50445D2}|gest_paninoteca\\gest_paninoteca.csproj|solutionrelative:gest_paninoteca\\models\\gestorepanino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 132,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Panino.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\gest_paninoteca\\gest_paninoteca\\Models\\Panino.cs",
+              "RelativeDocumentMoniker": "gest_paninoteca\\Models\\Panino.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\gest_paninoteca\\gest_paninoteca\\Models\\Panino.cs",
+              "RelativeToolTip": "gest_paninoteca\\Models\\Panino.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBIAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T14:25:59.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestorePanino.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\gest_paninoteca\\gest_paninoteca\\Models\\GestorePanino.cs",
+              "RelativeDocumentMoniker": "gest_paninoteca\\Models\\GestorePanino.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\gest_paninoteca\\gest_paninoteca\\Models\\GestorePanino.cs",
+              "RelativeToolTip": "gest_paninoteca\\Models\\GestorePanino.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwD8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T14:18:23.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\gest_paninoteca\\gest_paninoteca\\Program.cs",
+              "RelativeDocumentMoniker": "gest_paninoteca\\Program.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo Modulo\\Esercitazioni\\gest_paninoteca\\gest_paninoteca\\Program.cs",
+              "RelativeToolTip": "gest_paninoteca\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwB8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T14:11:02.464Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE42834-012E-4FBE-B960-4B94E2A7A8E0}|WPF_neg_abb\\WPF_neg_abb.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo_modulo\\esercitazioni\\negozio_abbigliamento\\wpf_neg_abb\\wpf_neg_abb\\dal\\prodottodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE42834-012E-4FBE-B960-4B94E2A7A8E0}|WPF_neg_abb\\WPF_neg_abb.csproj|solutionrelative:wpf_neg_abb\\dal\\prodottodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE42834-012E-4FBE-B960-4B94E2A7A8E0}|WPF_neg_abb\\WPF_neg_abb.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo_modulo\\esercitazioni\\negozio_abbigliamento\\wpf_neg_abb\\wpf_neg_abb\\dal\\ordinedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE42834-012E-4FBE-B960-4B94E2A7A8E0}|WPF_neg_abb\\WPF_neg_abb.csproj|solutionrelative:wpf_neg_abb\\dal\\ordinedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE42834-012E-4FBE-B960-4B94E2A7A8E0}|WPF_neg_abb\\WPF_neg_abb.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo_modulo\\esercitazioni\\negozio_abbigliamento\\wpf_neg_abb\\wpf_neg_abb\\dal\\categoriadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE42834-012E-4FBE-B960-4B94E2A7A8E0}|WPF_neg_abb\\WPF_neg_abb.csproj|solutionrelative:wpf_neg_abb\\dal\\categoriadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\Models\\TaskNegAbbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WPF_neg_abb\\Models\\TaskNegAbbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE42834-012E-4FBE-B960-4B94E2A7A8E0}|WPF_neg_abb\\WPF_neg_abb.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo_modulo\\esercitazioni\\negozio_abbigliamento\\wpf_neg_abb\\wpf_neg_abb\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DDE42834-012E-4FBE-B960-4B94E2A7A8E0}|WPF_neg_abb\\WPF_neg_abb.csproj|solutionrelative:wpf_neg_abb\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE42834-012E-4FBE-B960-4B94E2A7A8E0}|WPF_neg_abb\\WPF_neg_abb.csproj|d:\\lavoro\\informatica\\i\u0026m\\appunti ing g. pace\\lezioni_iemmeconsulting_repos\\terzo_modulo\\esercitazioni\\negozio_abbigliamento\\wpf_neg_abb\\wpf_neg_abb\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE42834-012E-4FBE-B960-4B94E2A7A8E0}|WPF_neg_abb\\WPF_neg_abb.csproj|solutionrelative:wpf_neg_abb\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 174,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdineDAL.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\DAL\\OrdineDAL.cs",
+              "RelativeDocumentMoniker": "WPF_neg_abb\\DAL\\OrdineDAL.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\DAL\\OrdineDAL.cs",
+              "RelativeToolTip": "WPF_neg_abb\\DAL\\OrdineDAL.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwCMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:03:24.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdottoDAL.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\DAL\\ProdottoDAL.cs",
+              "RelativeDocumentMoniker": "WPF_neg_abb\\DAL\\ProdottoDAL.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\DAL\\ProdottoDAL.cs",
+              "RelativeToolTip": "WPF_neg_abb\\DAL\\ProdottoDAL.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:01:24.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaDAL.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\DAL\\CategoriaDAL.cs",
+              "RelativeDocumentMoniker": "WPF_neg_abb\\DAL\\CategoriaDAL.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\DAL\\CategoriaDAL.cs",
+              "RelativeToolTip": "WPF_neg_abb\\DAL\\CategoriaDAL.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAqwBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:00:36.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskNegAbbContext.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\Models\\TaskNegAbbContext.cs",
+              "RelativeDocumentMoniker": "WPF_neg_abb\\Models\\TaskNegAbbContext.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\Models\\TaskNegAbbContext.cs",
+              "RelativeToolTip": "WPF_neg_abb\\Models\\TaskNegAbbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T16:59:56.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_neg_abb\\MainWindow.xaml",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\MainWindow.xaml",
+              "RelativeToolTip": "WPF_neg_abb\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T16:55:28.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_neg_abb\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Lavoro\\Informatica\\I\u0026M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Terzo_Modulo\\Esercitazioni\\negozio_abbigliamento\\WPF_neg_abb\\WPF_neg_abb\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF_neg_abb\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T16:55:24.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

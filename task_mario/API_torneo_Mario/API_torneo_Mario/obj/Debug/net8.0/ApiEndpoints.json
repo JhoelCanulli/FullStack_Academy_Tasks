@@ -1,0 +1,118 @@
+[
+  {
+    "ContainingType": "API_torneo_Mario.Controllers.PersonaggioController",
+    "Method": "GetAll",
+    "RelativePath": "api/personaggi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_torneo_Mario.Controllers.PersonaggioController",
+    "Method": "InsPersonaggio",
+    "RelativePath": "api/personaggi/inserisci",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objPer",
+        "Type": "API_torneo_Mario.DTO.PersonaggioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_torneo_Mario.Controllers.PersonaggioController",
+    "Method": "ModificaPersonaggio",
+    "RelativePath": "api/personaggi/modifica",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objPer",
+        "Type": "API_torneo_Mario.DTO.PersonaggioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_torneo_Mario.Controllers.SquadraController",
+    "Method": "GetAll",
+    "RelativePath": "api/squadre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_torneo_Mario.Controllers.SquadraController",
+    "Method": "GetByCodice",
+    "RelativePath": "api/squadre/{codice}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_torneo_Mario.Controllers.SquadraController",
+    "Method": "Delete",
+    "RelativePath": "api/squadre/{codice}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_torneo_Mario.Controllers.SquadraController",
+    "Method": "InsSquadra",
+    "RelativePath": "api/squadre/inserisci",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objSqu",
+        "Type": "API_torneo_Mario.DTO.SquadraDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_torneo_Mario.Controllers.SquadraController",
+    "Method": "Update",
+    "RelativePath": "api/squadre/modifica",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "squadra",
+        "Type": "API_torneo_Mario.DTO.SquadraDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

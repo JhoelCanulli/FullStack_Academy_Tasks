@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricerca Database Astronomico</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Ricerca nel Database Astronomico</h1>
+
+    <div>
+        <input type="text" id="searchTerm" placeholder="Inserisci termine di ricerca...">
+        <select id="searchType">
+            <option value="corpo">Nome dell'oggetto celeste</option>
+            <option value="sistema">Tipo di sistema</option>
+            <option value="scopritore">Scopritore</option>
+            <option value="tipologia">Tipologia</option>
+        </select>
+        <button onclick="search()">Ricerca</button>
+    </div>
+
+    <div id="results"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

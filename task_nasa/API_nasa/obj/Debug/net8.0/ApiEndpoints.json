@@ -1,0 +1,223 @@
+[
+  {
+    "ContainingType": "API_nasa.Controllers.CorpoController",
+    "Method": "Insert",
+    "RelativePath": "api/corpo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "corpo",
+        "Type": "API_nasa.DTO.CorpoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.CorpoController",
+    "Method": "GetAll",
+    "RelativePath": "api/corpo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.CorpoController",
+    "Method": "GetByCodice",
+    "RelativePath": "api/corpo/{codice}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.CorpoController",
+    "Method": "DeleteByCodice",
+    "RelativePath": "api/corpo/{codice}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.CorpoController",
+    "Method": "Update",
+    "RelativePath": "api/corpo/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "corpo",
+        "Type": "API_nasa.DTO.CorpoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.CorpoSistemaController",
+    "Method": "AddRelazione",
+    "RelativePath": "api/CorpoSistema",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "API_nasa.DTO.CorSisDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.CorpoSistemaController",
+    "Method": "GetAllRelazioni",
+    "RelativePath": "api/CorpoSistema",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.CorpoSistemaController",
+    "Method": "RemoveRelazione",
+    "RelativePath": "api/CorpoSistema/{codiceCorpo}/{codiceSistema}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codiceCorpo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "codiceSistema",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.CorpoSistemaController",
+    "Method": "UpdateRelazione",
+    "RelativePath": "api/CorpoSistema/{codiceCorpo}/{codiceSistemaPrec}/{codiceSistemaNuovo}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codiceCorpo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "codiceSistemaPrec",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "codiceSistemaNuovo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.SistemaController",
+    "Method": "Insert",
+    "RelativePath": "api/sistema",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sistema",
+        "Type": "API_nasa.DTO.SistemaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.SistemaController",
+    "Method": "GetAll",
+    "RelativePath": "api/sistema",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.SistemaController",
+    "Method": "GetByCodice",
+    "RelativePath": "api/sistema/{codice}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.SistemaController",
+    "Method": "DeleteByCodice",
+    "RelativePath": "api/sistema/{codice}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_nasa.Controllers.SistemaController",
+    "Method": "Update",
+    "RelativePath": "api/sistema/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sistema",
+        "Type": "API_nasa.DTO.SistemaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

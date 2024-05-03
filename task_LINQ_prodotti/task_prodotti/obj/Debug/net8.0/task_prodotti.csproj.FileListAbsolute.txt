@@ -1,0 +1,14 @@
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\obj\Debug\net8.0\task_prodotti.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\obj\Debug\net8.0\task_prodotti.AssemblyInfoInputs.cache
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\obj\Debug\net8.0\task_prodotti.AssemblyInfo.cs
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\obj\Debug\net8.0\task_prodotti.csproj.CoreCompileInputs.cache
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\bin\Debug\net8.0\task_prodotti.exe
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\bin\Debug\net8.0\task_prodotti.deps.json
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\bin\Debug\net8.0\task_prodotti.runtimeconfig.json
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\bin\Debug\net8.0\task_prodotti.dll
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\bin\Debug\net8.0\task_prodotti.pdb
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\obj\Debug\net8.0\task_prodotti.dll
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\obj\Debug\net8.0\refint\task_prodotti.dll
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\obj\Debug\net8.0\task_prodotti.pdb
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\obj\Debug\net8.0\task_prodotti.genruntimeconfig.cache
+D:\Lavoro\Informatica\I&M\VSCode_Prog\Esercitazioni_iemmeconsulting\task_prodotti\task_prodotti\obj\Debug\net8.0\ref\task_prodotti.dll
