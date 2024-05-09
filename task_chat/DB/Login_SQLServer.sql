@@ -7,10 +7,10 @@ CREATE TABLE UserProfile(
 	code VARCHAR(250),
 	username NVARCHAR(250) NOT NULL UNIQUE,
 	passwrd NVARCHAR(250) NOT NULL,
-	usImg VARCHAR(250),
-	email VARCHAR(250) UNIQUE,
+	usImg TEXT,
+	email VARCHAR(250),
 	isDeleted BIT,
-	chatRoomsCode VARCHAR(250) UNIQUE,
+	chatRoomsCode VARCHAR(250),
 	usRole VARCHAR(50)
 );
 
