@@ -1,40 +1,46 @@
+USE vendingMachine;
+
 DROP TABLE IF EXISTS Maintenance;
 DROP TABLE IF EXISTS Product_Supplier;
 DROP TABLE IF EXISTS Supplier;
 DROP TABLE IF EXISTS Transaction_;
+DROP TABLE IF EXISTS VendingMachineProduct;
 DROP TABLE IF EXISTS Product;
 DROP TABLE IF EXISTS VendingMachine;
 
 CREATE TABLE VendingMachine(
-	vendingMachineID INT PRIMARY KEY,
-	posizione NVARCHAR(50) NOT NULL,
-	modello NVARCHAR(50) NOT NULL,
+	vendingMachineID INT PRIMARY KEY IDENTITY(1,1),
+	position VARCHAR(250) NOT NULL,
+	model VARCHAR(250) NOT NULL
 );
 
 CREATE TABLE Product(
-	productID INT PRIMARY KEY,
-	prod_disponibili INT NOT NULL DEFAULT 0,	-- [totale - acquistati]
-	nome NVARCHAR(50) NOT NULL,
-	prezzo FLOAT NOT NULL,
-	quantita_stock INT NOT NULL DEFAULT 0,	-- quantità totale 
-	VendingMachineRIF INT NOT NULL,
-	FOREIGN KEY (VendingMachineRIF) REFERENCES VendingMachine(vendingMachineID)
+	productID INT PRIMARY KEY IDENTITY(1,1),
+	nameP VARCHAR(250) NOT NULL,
+	priceP VARCHAR(250) NOT NULL,
+	quantityPStock VARCHAR(250) NOT NULL DEFAULT 0
+);
+
+CREATE TABLE VendingMachineProduct(
+	vmProdID INT PRIMARY KEY IDENTITY(1,1),
+	vmRIF INT NOT NULL,
+	prodRIF INT NOT NULL,
+	FOREIGN KEY(vmRIF) REFERENCES VendingMachine(vendingMachineID),
+	FOREIGN KEY(prodRIF) REFERENCES Product(productID)
 );
 
 CREATE TABLE Transaction_(
 	transactionID INT PRIMARY KEY IDENTITY (1,1),
-	data_ora DATETIME NOT NULL,
-	importo FLOAT NOT NULL,
-	VendingMachineRIF INT NOT NULL,
-	ProductRIF INT NOT NULL,
-	FOREIGN KEY (VendingMachineRIF) REFERENCES VendingMachine(vendingMachineID),
-	FOREIGN KEY (ProductRIF) REFERENCES Product(productID)
+	dateTme DATETIME NOT NULL,
+	price FLOAT NOT NULL,
+	vmProdRIF INT NOT NULL,
+	FOREIGN KEY (vmProdRIF) REFERENCES VendingMachineProduct(vmProdID)
 );
 
 CREATE TABLE Supplier(
-	supplierID INT PRIMARY KEY,
-	nome NVARCHAR(50) NOT NULL,
-	dettagli_contatto NVARCHAR(50) NOT NULL,
+	supplierID INT PRIMARY KEY IDENTITY(1,1),
+	nameS NVARCHAR(50) NOT NULL,
+	us_dettails NVARCHAR(50) NOT NULL,
 );
 
 CREATE TABLE Product_Supplier(
@@ -45,59 +51,80 @@ CREATE TABLE Product_Supplier(
 );
 
 CREATE TABLE Maintenance(
-	maintenanceID INT PRIMARY KEY,
-	data_ora DATETIME NOT NULL,
-	descrizione NVARCHAR(50),
+	maintenanceID INT PRIMARY KEY IDENTITY(1,1),
+	dateTme DATETIME NOT NULL,
+	descriptn NVARCHAR(50),
 	VendingMachineRIF INT NOT NULL,
 	FOREIGN KEY (VendingMachineRIF) REFERENCES VendingMachine(vendingMachineID)
 );
 
-INSERT INTO VendingMachine(vendingMachineID, posizione, modello) VALUES
-	(1, 'via brutti, 33', 'XYZ'),
-	(2, 'via sporchi, 44', 'ABC'),
-	(3, 'via cattivi, 55', 'RTF');
+INSERT INTO VendingMachine (position, model) VALUES 
+('Entrance Hall', 'VM-123'),
+('Cafeteria', 'VM-456'),
+('Library', 'VM-789');
 
-INSERT INTO Product(productID, prod_disponibili, nome, prezzo, quantita_stock, VendingMachineRIF) VALUES
-	(1, 3, 'merendina', 3.50, 10, 1),
-	(2, 4, 'acqua', 1, 10, 2),
-	(3, 0, 'patatine', 2, 10, 3);
+INSERT INTO Product (nameP, priceP, quantityPStock) VALUES 
+('Chips', '1.50', '100'),
+('Soda', '1.00', '200'),
+('Candy Bar', '0.75', '150');
 
-INSERT INTO Transaction_(transactionID, data_ora, importo, VendingMachineRIF, ProductRIF) VALUES
-	(1, CONVERT(datetime, '2024-03-15 18:00:00', 120), 2, 2, 2),
-	(2, CONVERT(datetime, '2024-03-15 20:00:00', 120), 2, 2, 2),
-	(3, CONVERT(datetime, '2024-03-16 06:00:00', 120), 2, 3, 3),
-	(4, CONVERT(datetime, '2024-03-17 20:00:00', 120), 3.50, 1, 1),
-	(5, CONVERT(datetime, '2024-03-17 20:50:00', 120), 3.50, 1, 1),
-	(6, CONVERT(datetime, '2024-03-17 20:50:00', 120), 3.50, 1, 1);
+INSERT INTO VendingMachineProduct (vmRIF, prodRIF) VALUES 
+(1, 1),
+(1, 2),
+(2, 2),
+(2, 3),
+(3, 1),
+(3, 3);
 
-INSERT INTO Supplier(supplierID, nome, dettagli_contatto) VALUES
-	(1, 'fornitori tal de tali', 'xxxx'),
-	(2, 'fornitori pincopallini', 'yyyy');
+INSERT INTO Transaction_ (dateTme, price, vmProdRIF) VALUES 
+('2024-20-05 10:15:00', 1.50, 1),
+('2024-20-05 11:30:00', 1.00, 2),
+('2024-21-05 09:45:00', 0.75, 3),
+('2024-21-05 12:00:00', 1.50, 4);
 
-INSERT INTO Product_Supplier(ProductRIF, SupplierRIF) VALUES
-	(1, 1),
-	(1, 2);
+INSERT INTO Supplier (nameS, us_dettails) VALUES 
+('Supplier A', 'Contact A'),
+('Supplier B', 'Contact B'),
+('Supplier C', 'Contact C');
 
-INSERT INTO Maintenance(maintenanceID, data_ora, descrizione, VendingMachineRIF) VALUES
-    (1, CONVERT(datetime, '2024-03-10 18:00:00', 120), '13 bottiglie incastrate malissimo', 1),
-    (2, CONVERT(datetime, '2024-03-11 09:00:00', 120), 'controllo', 1),
-	(3, CONVERT(datetime, '2024-11-11 09:00:00', 120), 'controllo programmato', 1);
+INSERT INTO Product_Supplier (ProductRIF, SupplierRIF) VALUES 
+(1, 1),
+(2, 2),
+(3, 3),
+(1, 2),
+(2, 3);
+
+INSERT INTO Maintenance (dateTme, descriptn, VendingMachineRIF) VALUES 
+('2024-22-05 08:00:00', 'Refilled snacks', 1),
+('2024-22-05 09:00:00', 'Fixed coin slot', 2),
+('2024-22-05 10:00:00', 'Cleaned machine', 3),
+('2025-22-05 10:00:00', 'Cleaned machine', 1),
+('2026-22-05 10:00:00', 'Cleaned machine', 2),
+('2027-22-05 10:00:00', 'Cleaned machine', 3);
 
 /*
- | ----------------------------------------------------------- |
- | ------------- Richieste di Creazione di Viste ------------- |
- | ----------------------------------------------------------- |
- 
- * 
- * Creare una vista ProductsByVendingMachine che mostri tutti i prodotti disponibili
- * in ciascun distributore, includendo l'ID e la posizione del distributore, il nome del prodotto, 
- * il prezzo e la quantità disponibile
- */
+	| ----------------------------------------------------------- |
+	| ----------------------[ VIEWS ]---------------------------- |
+	| ----------------------------------------------------------- |
 
+-----------------------------------------------------------------------------------
+
+ *
+ * Creare una vista ProductsByVendingMachine che mostri tutti i prodotti disponibili in ciascun 
+ * distributore, includendo l'ID e la posizione del distributore, il nome del prodotto, il prezzo e la
+ * quantità disponibile
+*/
+
+DROP VIEW IF EXISTS ProductsByVendingMachine;
 CREATE VIEW ProductsByVendingMachine AS
-	SELECT VendingMachine.vendingMachineID AS 'ID machine', VendingMachine.posizione AS 'posizione', Product.nome AS 'prodotto', Product.prezzo AS 'prezzo', Product.prod_disponibili AS 'disponibili' 
-	FROM VendingMachine
-	JOIN Product ON VendingMachine.vendingMachineID = Product.VendingMachineRIF
+	SELECT  vendingMachineID AS 'vending machine ID', 
+			position AS 'position vending machine', 
+			nameP AS 'name product', 
+			priceP AS 'price product', 
+			quantityPStock AS 'quantity this product' 
+	FROM VendingMachineProduct
+	JOIN Product ON VendingMachineProduct.prodRIF = Product.productID
+	JOIN VendingMachine ON VendingMachineProduct.vmRIF = VendingMachine.vendingMachineID
 
 SELECT * FROM ProductsByVendingMachine;
 
@@ -108,14 +135,21 @@ SELECT * FROM ProductsByVendingMachine;
  * mostrando l'ID della transazione, la data/ora, il distributore, il prodotto acquistato
  * e l'importo della transazione.
  */
-CREATE VIEW RecentTransactions AS
-	SELECT Transaction_.transactionID AS 'ID transaction', Transaction_.data_ora AS 'data', VendingMachine.modello AS 'distributore', Product.nome AS 'prodotto', Transaction_.importo AS 'importo'
-	FROM VendingMachine 
-	JOIN Transaction_ ON VendingMachine.vendingMachineID = Transaction_.VendingMachineRIF
-	JOIN Product ON Transaction_.ProductRIF = Product.productID
-	ORDER BY data_ora DESC
+
+DROP VIEW IF EXISTS RecentTransactions;
+CREATE VIEW RecentTransactions AS 
+	SELECT  transactionID AS 'transaction ID',
+			dateTme AS 'date and time',
+			vmRIF AS 'vending machine ID',
+			prodRIF AS 'product ID',
+			nameP AS 'product name',
+			price AS 'price transaction'	
+	FROM Transaction_ 
+	JOIN VendingMachineProduct ON Transaction_.vmProdRIF = VendingMachineProduct.vmProdID
+	JOIN Product ON VendingMachineProduct.prodRIF = Product.productID
+	ORDER BY dateTme DESC
 	OFFSET 0 ROWS
-	FETCH NEXT 5 ROWS ONLY
+	FETCH NEXT 3 ROWS ONLY
 
 SELECT * FROM RecentTransactions 
 
@@ -127,15 +161,17 @@ SELECT * FROM RecentTransactions
  * dell'ultima e della prossima manutenzione
  */
 
+DROP VIEW IF EXISTS ScheduleMaintenance;
 CREATE VIEW ScheduleMaintenance AS
-	SELECT DISTINCT VendingMachine.vendingMachineID AS 'ID machine', VendingMachine.posizione AS 'posizione',
-		(SELECT MAX(Maintenance.data_ora) 
-		FROM Maintenance 
-		WHERE Maintenance.VendingMachineRIF = VendingMachine.vendingMachineID AND Maintenance.data_ora <= GETDATE()) AS 'ultima manutenzione',
-		(SELECT MIN(Maintenance.data_ora) 
-		FROM Maintenance  
-		WHERE Maintenance.VendingMachineRIF = VendingMachine.vendingMachineID AND Maintenance.data_ora > GETDATE()) AS 'manutenzione programmata'
-	FROM VendingMachine 
+	SELECT DISTINCT vendingMachineID AS 'vending machine ID',
+					position,
+					(SELECT MAX(Maintenance.dateTme)
+					FROM Maintenance
+					WHERE Maintenance.VendingMachineRIF = VendingMachine.vendingMachineID AND Maintenance.dateTme <= GETDATE()) AS 'date of last maintenance',
+					(SELECT MIN(Maintenance.dateTme) 
+					FROM Maintenance  
+					WHERE Maintenance.VendingMachineRIF = VendingMachine.vendingMachineID AND Maintenance.dateTme > GETDATE()) AS 'date of next maintenance'
+	FROM VendingMachine
 	JOIN Maintenance ON VendingMachine.vendingMachineID = Maintenance.VendingMachineRIF
 
 SELECT * FROM ScheduleMaintenance;
@@ -143,46 +179,52 @@ SELECT * FROM ScheduleMaintenance;
 -----------------------------------------------------------------------------------
 
 /*
- | ----------------------------------------------------------- |
- | ------- Richieste di Creazione di Stored Procedures ------- |
- | ----------------------------------------------------------- |
- * 
+	| ----------------------------------------------------------- |
+	| ---------------- [ STORED PROCEDURES ] -------------------- |
+	| ----------------------------------------------------------- |
+
+-----------------------------------------------------------------------------------
+ 
+ *
  * Implementare una stored procedure RefillProduct che consenta di aggiungere scorte 
  * di un prodotto specifico in un distributore, richiedendo l'ID del distributore, l'ID del prodotto
  * e la quantità da aggiungere
  */
-
-ALTER PROCEDURE RefillProduct 
+ 
+DROP PROCEDURE IF EXISTS RefillProduct;
+CREATE PROCEDURE RefillProduct
 	@vendingMachineID INT,
 	@productID INT,
-	@quantita INT,
-	@nome NVARCHAR(50),
-	@prezzo FLOAT
+	@quantity INT,
+	@name VARCHAR(250),
+	@price FLOAT
 AS
-BEGIN
-	IF EXISTS (SELECT 1 FROM Product
-						WHERE productID = @productID AND VendingMachineRIF = @vendingMachineID)
+BEGIN 
+	IF EXISTS (SELECT 1 FROM VendingMachineProduct
+						JOIN Product ON prodRIF = productID
+						WHERE productID = @productID AND vmRIF = @vendingMachineID)
 	BEGIN
 		UPDATE Product
-		SET quantita_stock = quantita_stock + @quantita, 
-			prod_disponibili = prod_disponibili + @quantita
-		WHERE productID = @productID AND VendingMachineRIF = @vendingMachineID
+		SET quantityPStock = quantityPStock + @quantity
 	END
 	ELSE
 	BEGIN
-		INSERT INTO Product(productID, nome, prezzo, quantita_stock, prod_disponibili, VendingMachineRIF) VALUES
-		(@productID, @nome, @prezzo, @quantita, @quantita, @vendingMachineID);
+		INSERT INTO Product (nameP, priceP, quantityPStock) VALUES
+		(@name, @price, @quantity);
+		INSERT INTO VendingMachineProduct(prodRIF, vmRIF) VALUES
+		(@productID, @vendingMachineID)
 	END
 END;
 
-EXEC RefillProduct 
-	@vendingMachineID = 1, 
-	@productID = 4, 
-	@quantita = 5, 
-	@nome = 'bibita', 
-	@prezzo = 1.70;
+EXEC RefillProduct
+	@vendingMachineID = 1,
+	@productID = 4,
+	@quantity = 5,
+	@name = 'snak',
+	@price = 1.70;
 
-SELECT * FROM Product
+SELECT * FROM ProductsByVendingMachine;
+SELECT * FROM Product;
 
 -----------------------------------------------------------------------------------
 
@@ -191,33 +233,97 @@ SELECT * FROM Product
  * includento l'ID del distributore, l'ID del prodotto e l'importo pagato, aggiornando
  * contemporaneamente la quantità disponibile del prodotto
  */
+
+DROP PROCEDURE IF EXISTS RecordTransaction;
 CREATE PROCEDURE RecordTransaction
 	@vendingMachineID INT,
 	@productID INT,
-	@importo INT
+	@price INT
 AS
-BEGIN
-	IF EXISTS (SELECT 1 FROM Product
-						WHERE productID = @productID AND VendingMachineRIF = @vendingMachineID)
+BEGIN TRY
+	BEGIN TRANSACTION 
+	IF EXISTS (SELECT 1 FROM VendingMachineProduct
+						JOIN Product ON prodRIF = productID
+						WHERE productID = @productID AND vmRIF = @vendingMachineID)
 	BEGIN
 		UPDATE Product
-		SET prod_disponibili = prod_disponibili - 1
-		WHERE productID = @productID AND VendingMachineRIF = @vendingMachineID
-		INSERT INTO Transaction_(data_ora, importo, VendingMachineRIF, ProductRIF) VALUES
-		(GETDATE(), @importo, @vendingMachineID, @productID);
+		SET quantityPStock = quantityPStock - 1
+		
+		UPDATE VendingMachineProduct
+		SET prodRIF = @productID
+
+		DECLARE @vmProdID INT;
+		SELECT @vmProdID = vmProdID
+		FROM VendingMachineProduct
+		WHERE vmRIF = @vendingMachineID AND prodRIF = @productID;
+
+		INSERT INTO Transaction_(dateTme, price, vmProdRIF) VALUES
+		(GETDATE(), @price, @vmProdID);
 	END
 	ELSE
 	BEGIN
-		PRINT 'prodotto: ' + CAST(@productID AS NVARCHAR(50)) + ' esaurito o non disponibile';
+		PRINT 'product: ' + CAST(@productID AS VARCHAR(250)) + ' out of stock or not existing';
 	END
-END;
+	COMMIT TRANSACTION
+END TRY
+BEGIN CATCH
+	IF @@TRANCOUNT > 0 ROLLBACK TRANSACTION
+	-- Error message
+	DECLARE @Err NVARCHAR(1000)
+	SET @Err = ERROR_MESSAGE()
+	RAISERROR (@Err,16,1)
+END CATCH;
 
 EXEC RecordTransaction
 	@vendingMachineID = 1,
 	@productID = 4,
-	@importo = 1.70;
+	@price = 1.70;
 
-SELECT * FROM RecentTransactions 
+SELECT * FROM RecentTransactions;
+SELECT * FROM Product;
+
+-----------------------------------------------------------------------------------
+
+/*
+ * Creare una stored procedure ScheduleMaintenance per programmare un intervento di
+ * manutenzione su un distributore, specificando l'ID del distributore e la data della manutenzione.
+ */
+
+DROP PROCEDURE IF EXISTS ScheduleMaintenanceSP;
+CREATE PROCEDURE ScheduleMaintenanceSP
+    @vendingMachineID INT,
+    @maintenanceDate DATETIME,
+    @description NVARCHAR(50) = NULL
+AS
+BEGIN TRY
+    BEGIN TRANSACTION;
+    IF EXISTS (SELECT 1 FROM VendingMachine WHERE vendingMachineID = @vendingMachineID)
+    BEGIN
+        INSERT INTO Maintenance (dateTme, descriptn, VendingMachineRIF) 
+        VALUES (@maintenanceDate, @description, @vendingMachineID);
+    END
+    ELSE
+    BEGIN
+        RAISERROR ('Vending Machine ID not found.', 16, 1);
+    END
+    COMMIT TRANSACTION;
+END TRY
+BEGIN CATCH
+    IF @@TRANCOUNT > 0
+        ROLLBACK TRANSACTION;
+
+    DECLARE @ErrMsg NVARCHAR(4000), @ErrSeverity INT;
+    SELECT @ErrMsg = ERROR_MESSAGE(), @ErrSeverity = ERROR_SEVERITY();
+    RAISERROR (@ErrMsg, @ErrSeverity, 1);
+END CATCH;
+
+EXEC ScheduleMaintenanceSP
+    @vendingMachineID = 1,
+    @maintenanceDate = '2024-22-07 10:00:00',
+    @description = 'Routine check-up';
+
+SELECT * FROM ScheduleMaintenance;
+SELECT * FROM Maintenance;
 
 -----------------------------------------------------------------------------------
 
@@ -226,26 +332,31 @@ SELECT * FROM RecentTransactions
  * di un prodotto specifico, richiedendo l'ID del prodotto e il nuovo prezzo
  */
 
+DROP PROCEDURE IF EXISTS UpdateProductPrice;
 CREATE PROCEDURE UpdateProductPrice 
 	@productID INT,
-	@nuovo_prezzo FLOAT
+	@newPrice FLOAT
 AS
 BEGIN
 	IF EXISTS (SELECT 1 FROM Product	
 						WHERE productID = @productID)
 	BEGIN
 		UPDATE Product
-		SET prezzo = @nuovo_prezzo
+		SET priceP = @newPrice
 		WHERE productID = @productID
 	END
 	ELSE
 	BEGIN
-		PRINT 'prodotto: ' + CAST(@productID AS NVARCHAR(50)) + ' non presente';
+		PRINT 'product: ' + CAST(@productID AS VARCHAR(250)) + ' out of stock or not existing';
 	END
 END;
 
 EXEC UpdateProductPrice 
+	@productID = 7,
+	@newPrice = 1.30;
+
+EXEC UpdateProductPrice 
 	@productID = 2,
-	@nuovo_prezzo = 1.30;
+	@newPrice = 1.30;
 
 SELECT * FROM Product;
