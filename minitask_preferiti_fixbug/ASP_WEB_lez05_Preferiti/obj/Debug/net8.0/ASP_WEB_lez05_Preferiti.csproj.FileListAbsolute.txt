@@ -100,3 +100,37 @@ C:\Users\utente\Desktop\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\De
 C:\Users\utente\Desktop\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.pdb
 C:\Users\utente\Desktop\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.genruntimeconfig.cache
 C:\Users\utente\Desktop\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ref\ASP_WEB_lez05_Preferiti.dll
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\bin\Debug\net8.0\appsettings.Development.json
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\bin\Debug\net8.0\appsettings.json
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\bin\Debug\net8.0\ASP_WEB_lez05_Preferiti.staticwebassets.runtime.json
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\bin\Debug\net8.0\ASP_WEB_lez05_Preferiti.exe
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\bin\Debug\net8.0\ASP_WEB_lez05_Preferiti.deps.json
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\bin\Debug\net8.0\ASP_WEB_lez05_Preferiti.runtimeconfig.json
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\bin\Debug\net8.0\ASP_WEB_lez05_Preferiti.dll
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\bin\Debug\net8.0\ASP_WEB_lez05_Preferiti.pdb
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\bin\Debug\net8.0\Newtonsoft.Json.dll
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.csproj.AssemblyReference.cache
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.GeneratedMSBuildEditorConfig.editorconfig
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.AssemblyInfoInputs.cache
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.AssemblyInfo.cs
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.csproj.CoreCompileInputs.cache
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.MvcApplicationPartsAssemblyInfo.cache
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.RazorAssemblyInfo.cache
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.RazorAssemblyInfo.cs
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.sourcelink.json
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\staticwebassets.build.json
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\staticwebassets.development.json
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\staticwebassets\msbuild.ASP_WEB_lez05_Preferiti.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\staticwebassets\msbuild.build.ASP_WEB_lez05_Preferiti.props
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ASP_WEB_lez05_Preferiti.props
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ASP_WEB_lez05_Preferiti.props
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\staticwebassets.pack.json
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\scopedcss\bundle\ASP_WEB_lez05_Preferiti.styles.css
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\scopedcss\projectbundle\ASP_WEB_lez05_Preferiti.bundle.scp.css
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_.B5774F03.Up2Date
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.dll
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\refint\ASP_WEB_lez05_Preferiti.dll
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.pdb
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ASP_WEB_lez05_Preferiti.genruntimeconfig.cache
+G:\Lavoro\Informatica\I&M\Appunti ing G. Pace\Tasks\mid_tasks\minitask_preferiti_fixbug\ASP_WEB_lez05_Preferiti\obj\Debug\net8.0\ref\ASP_WEB_lez05_Preferiti.dll
