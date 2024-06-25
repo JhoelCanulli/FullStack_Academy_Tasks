@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASP_WEB_impiegati")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d4f5e95eef1e6221b8a3f7933c0e52e11585618")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da690f816fec9d5db649c888897b87205e739cc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASP_WEB_impiegati")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASP_WEB_impiegati")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

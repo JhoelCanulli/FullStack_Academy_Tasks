@@ -1,3 +1,6 @@
+using ASP_WEB_impiegati.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace ASP_WEB_impiegati
 {
     public class Program
@@ -8,6 +11,9 @@ namespace ASP_WEB_impiegati
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDbContext<Context>(options => options.UseSqlServer(
+            builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
@@ -25,6 +31,16 @@ namespace ASP_WEB_impiegati
             app.UseRouting();
 
             app.UseAuthorization();
+
+#if DEBUG
+            app.UseCors(options =>
+            {
+                options
+                    .WithOrigins("*")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+            });
+#endif
 
             app.MapControllerRoute(
                 name: "default",

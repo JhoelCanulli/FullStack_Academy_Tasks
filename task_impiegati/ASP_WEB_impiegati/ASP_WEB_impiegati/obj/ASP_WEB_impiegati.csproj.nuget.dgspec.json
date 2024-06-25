@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Lavoro\\Informatica\\I&M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Sesto_Settimo_Modulo\\Esercitazioni\\task_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati.csproj": {}
+    "G:\\Lavoro\\Informatica\\I&M\\Appunti ing G. Pace\\Tasks\\mid_tasks\\task_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati.csproj": {}
   },
   "projects": {
-    "D:\\Lavoro\\Informatica\\I&M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Sesto_Settimo_Modulo\\Esercitazioni\\task_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati.csproj": {
+    "G:\\Lavoro\\Informatica\\I&M\\Appunti ing G. Pace\\Tasks\\mid_tasks\\task_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lavoro\\Informatica\\I&M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Sesto_Settimo_Modulo\\Esercitazioni\\task_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati.csproj",
+        "projectUniqueName": "G:\\Lavoro\\Informatica\\I&M\\Appunti ing G. Pace\\Tasks\\mid_tasks\\task_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati.csproj",
         "projectName": "ASP_WEB_impiegati",
-        "projectPath": "D:\\Lavoro\\Informatica\\I&M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Sesto_Settimo_Modulo\\Esercitazioni\\task_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati.csproj",
-        "packagesPath": "C:\\Users\\utente\\.nuget\\packages\\",
-        "outputPath": "D:\\Lavoro\\Informatica\\I&M\\Appunti ing G. Pace\\Lezioni_iemmeconsulting_repos\\Sesto_Settimo_Modulo\\Esercitazioni\\task_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati\\obj\\",
+        "projectPath": "G:\\Lavoro\\Informatica\\I&M\\Appunti ing G. Pace\\Tasks\\mid_tasks\\task_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati.csproj",
+        "packagesPath": "C:\\Users\\Jhoel\\.nuget\\packages\\",
+        "outputPath": "G:\\Lavoro\\Informatica\\I&M\\Appunti ing G. Pace\\Tasks\\mid_tasks\\task_impiegati\\ASP_WEB_impiegati\\ASP_WEB_impiegati\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhoel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -87,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
