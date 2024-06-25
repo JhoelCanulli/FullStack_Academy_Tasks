@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oa/zsOXgSwhfSMMrLTAgOMVUdsUDhu2xtFSr2zpWmiI8DLr62LMPDMTHX8JoPj1GGlaS4JBTA2uCyVef/PBN1g==",
+  "dgSpecHash": "qLDSQw9+LecU3RlsV8OGRgKUIxcow6MIh6wX8uR96Eg9WddGJyR3RPeV0UO98KB5qdMitSNotyhJPKhN1FnRWA==",
   "success": true,
-  "projectFilePath": "G:\\Lavoro\\Informatica\\I&M\\Appunti ing G. Pace\\Tasks\\task_chat\\API_livechat\\API_livechat.csproj",
+  "projectFilePath": "G:\\Lavoro\\Informatica\\I&M\\Appunti ing G. Pace\\Tasks\\mid_tasks\\task_chat\\API_livechat\\API_livechat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jhoel\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Jhoel\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
